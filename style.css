@@ -1,0 +1,97 @@
+/*
+ Theme Name:   Classy Child Theme
+ Theme URI:    http://jleuze.com/
+ Description:  A classy child theme for Twenty Sixteen.
+ Author:       Josh Leuze
+ Author URI:   http://jleuze.com/
+ Template:     twentysixteen
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twenty-sixteen-child
+*/
+
+/* Sticky posts */
+.sticky {
+	background-color: #D9E6EF;
+	padding: 1em;
+}
+.sticky li {
+	border-bottom: solid 1px #333;
+	margin-bottom: 1em;
+	padding-bottom: 1em;
+}
+
+/* Cat posts */
+.category-edge-case-2 {
+	margin-left: 10em;
+}
+.category-edge-case-2 .entry-title {
+    font-size: 24px;
+}
+.category-edge-case-2 .entry-title a {
+    color: #ccc;
+}
+
+/* Archives widget */
+.widget_archive ul {
+	margin-left: 0;
+}
+.widget_archive li {
+	display: inline-block;
+	width: 49%;
+}
+
+/* Multiple classes */
+.widget .button {
+	background-color: #007acc;
+	border:  solid 1px #004471;
+	box-shadow: none;
+	color: #fff;
+	display: inline-block;
+	padding: 10px;
+}
+.widget .button.secondary {
+	background-color: #fff;
+	border:  solid 1px #007acc;
+	color: #007acc;
+}
+
+/* Body classes */
+body.page-template-page_full .content-area {
+    float: none;
+    margin-right: 0;
+    width: 100%;
+}
+
+/* Menu editor classes */
+.main-navigation .highlight a {
+	background-color: #007acc;
+	color: #fff;
+}
+.main-navigation .highlight a:hover {
+	background-color: #333;
+	color: #fff;
+}
+
+/* New widget classes */
+.content-bottom-widgets .widget {
+	padding: 1em;
+}
+.feature-widget {
+	background-color: #D9E6EF;
+}
+
+/* Adding Body classes */
+body.one-column .content-area {
+    margin: 0 auto;
+    width: 70%;
+}
+
+/* Using Pseudo-Elements */
+.sticky li:last-of-type {
+	border-bottom: none;
+	margin-bottom: 0;
+	padding-bottom: 0;
+}
